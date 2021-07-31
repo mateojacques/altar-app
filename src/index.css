@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Righteous', 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #000 !important;
+}
+
+#root {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1920px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
