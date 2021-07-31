@@ -165,6 +165,7 @@ const styles = makeStyles((theme) => ({
   },
   userMasters__header: {
     paddingRight: 80,
+    marginBottom: 50,
     [theme.breakpoints.down('lg')]: {
       paddingRight: 50,
     },
