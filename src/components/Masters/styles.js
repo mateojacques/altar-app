@@ -19,7 +19,7 @@ const styles = makeStyles((theme) => ({
   },
   title: {
     color: '#fff',
-    fontFamily: `'Righteous', 'Roboto', sans-serif`,
+    fontFamily: `'Righteous', 'Roboto', sans-serif !important`,
     fontSize: '4rem',
     marginBottom: 70,
     wordWrap: 'break-word',
@@ -152,7 +152,7 @@ const styles = makeStyles((theme) => ({
   },
   userMasterItem__title: {
     color: '#fff',
-    fontFamily: `'Righteous', 'Roboto', sans-serif`,
+    fontFamily: `'Righteous', 'Roboto', sans-serif !important`,
     transition: '.3s ease',
     '&:hover': {
       color: theme.palette.secondary.main,
