@@ -30,11 +30,11 @@ const styles = makeStyles((theme) => ({
     },
   },
   nav__link: {
-    color: '#fff',
+    color: '#fff !important',
     marginBottom: 15,
   },
   linkActive: {
-    color: `${theme.palette.secondary.main}`,
+    color: `${theme.palette.secondary.main} !important`,
   },
 }))
 
