@@ -37,6 +37,7 @@ const Pick = ({ path, onMasterPicked }) => {
       <Grid container direction='column'>
         <Typography
           component='h1'
+          variant='h3'
           className={`${classes.title} ${classes.pickTitle}`}
         >
           CHOOSE UP TO THREE <span className={classes.span}>MASTERS</span>

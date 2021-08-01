@@ -9,6 +9,7 @@ const Path = ({ onPathPicked }) => {
     <>
       <Typography
         component='h1'
+        variant='h1'
         className={`${classes.title} ${classes.pathTitle}`}
       >
         CHOOSE YOUR <span className={classes.span}>PATH</span>
