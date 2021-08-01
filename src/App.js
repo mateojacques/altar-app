@@ -44,7 +44,6 @@ function App() {
 
       if (userMasters) {
         const mastersArray = userMasters.split(',')
-        // if (images.length >= 50 && images.length < 94) {
         axios
           .get(
             `https://altar-api.netlify.app/.netlify/functions/server/api/images/${mastersArray[1]}`
@@ -55,7 +54,6 @@ function App() {
             shuffle(images)
             setImages([...images, ...fetchedImages])
           })
-        // }
       }
     }
 
@@ -64,7 +62,6 @@ function App() {
 
       if (userMasters) {
         const mastersArray = userMasters.split(',')
-        // if (images.length >= 94 && images.length <= 144) {
         axios
           .get(
             `https://altar-api.netlify.app/.netlify/functions/server/api/images/${mastersArray[2]}`
@@ -75,7 +72,6 @@ function App() {
             shuffle(images)
             setImages([...images, ...fetchedImages])
           })
-        // }
       }
     }
 
