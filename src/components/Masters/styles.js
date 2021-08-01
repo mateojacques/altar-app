@@ -21,7 +21,7 @@ const styles = makeStyles((theme) => ({
     color: '#fff',
     fontFamily: `'Righteous', 'Roboto', sans-serif !important`,
     fontSize: '4rem',
-    marginBottom: 70,
+    marginBottom: '70px !important',
     wordWrap: 'break-word',
     [theme.breakpoints.down('lg')]: {
       marginBottom: 40,
@@ -32,7 +32,6 @@ const styles = makeStyles((theme) => ({
     color: `${theme.palette.secondary.main}`,
   },
   pathTitle: {
-    marginBottom: 50,
     [theme.breakpoints.down('sm')]: {
       marginTop: 200,
     },
@@ -41,7 +40,6 @@ const styles = makeStyles((theme) => ({
     },
   },
   pickTitle: {
-    marginBottom: 50,
     [theme.breakpoints.down('xs')]: {
       marginTop: 150,
     },
