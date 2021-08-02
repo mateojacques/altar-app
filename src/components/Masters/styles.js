@@ -45,6 +45,11 @@ const styles = makeStyles((theme) => ({
       marginTop: 150,
     },
   },
+  userTitle: {
+    [theme.breakpoints.down('xs')]: {
+      marginBottom: '15px !important',
+    },
+  },
   boxes: { gap: 50 },
   box: {
     width: 420,
@@ -123,7 +128,8 @@ const styles = makeStyles((theme) => ({
       padding: '50px 0',
     },
     [theme.breakpoints.down('xs')]: {
-      marginTop: 30,
+      marginTop: 10,
+      paddingTop: 30,
       maxHeight: 'unset',
     },
   },
@@ -173,6 +179,9 @@ const styles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down('md')]: {
       paddingRight: 0,
+    },
+    [theme.breakpoints.down('xs')]: {
+      marginBottom: '0px !important',
     },
   },
 }))

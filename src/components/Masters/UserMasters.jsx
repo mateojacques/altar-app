@@ -71,7 +71,11 @@ const UserMasters = ({ onChangeSettings, userMasters }) => {
         alignItems='center'
         className={classes.userMasters__header}
       >
-        <Typography component='h1' variant='h2' className={classes.title}>
+        <Typography
+          component='h1'
+          variant='h2'
+          className={`${classes.title} ${classes.userTitle}`}
+        >
           YOUR <span className={classes.span}>ALTAR</span>
         </Typography>
 
