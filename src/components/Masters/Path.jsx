@@ -21,12 +21,16 @@ const Path = ({ onPathPicked }) => {
           item
           xs={12}
           md={8}
-          lg={6}
+          lg={5}
           xl={4}
           className={classes.box}
           justifyContent='center'
           alignItems='center'
-          style={{ background: `url(${mangaImg})` }}
+          style={{
+            background: `url(${mangaImg}) no-repeat`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
           onClick={() => onPathPicked(1)}
         >
           <Typography variant='h2' className={classes.boxTitle}>
@@ -39,12 +43,16 @@ const Path = ({ onPathPicked }) => {
           item
           xs={12}
           md={8}
-          lg={6}
+          lg={5}
           xl={4}
           className={classes.box}
           justifyContent='center'
           alignItems='center'
-          style={{ background: `url(${comicImg})` }}
+          style={{
+            background: `url(${comicImg}) no-repeat`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
           onClick={() => onPathPicked(2)}
         >
           <Typography variant='h2' className={classes.boxTitle}>

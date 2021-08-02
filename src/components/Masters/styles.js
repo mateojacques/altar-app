@@ -4,6 +4,7 @@ const styles = makeStyles((theme) => ({
   masters: {
     width: '100%',
     height: '100vh',
+    padding: '0 20px',
     overflowY: 'scroll',
     textAlign: 'center',
     display: 'flex',
@@ -11,7 +12,7 @@ const styles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     [theme.breakpoints.down('md')]: {
-      paddingRight: 50,
+      padding: '250px 20px 20px 20px',
     },
     [theme.breakpoints.down('sm')]: {
       padding: '130px 20px 40px 20px',
