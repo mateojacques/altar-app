@@ -50,9 +50,9 @@ function App() {
           )
           .then((res) => {
             const fetchedImages = res.data.images
-            shuffle(fetchedImages)
-            shuffle(images)
-            setImages([...images, ...fetchedImages])
+            const shuffledFetchedImages = shuffle(fetchedImages)
+            const shuffledImages = shuffle(images)
+            setImages([...shuffledImages, ...shuffledFetchedImages])
           })
       }
     }
@@ -68,16 +68,21 @@ function App() {
           )
           .then((res) => {
             const fetchedImages = res.data.images
-            shuffle(fetchedImages)
-            shuffle(images)
-            setImages([...images, ...fetchedImages])
+            const shuffledFetchedImages = shuffle(fetchedImages)
+            const shuffledImages = shuffle(images)
+            setImages([...shuffledImages, ...shuffledFetchedImages])
           })
       }
     }
 
+    function randomize() {
+      setImages(shuffle(images))
+    }
+
     if (images.length < 50) getMasterOne()
-    if (images.length >= 50 && images.length < 94) getMasterTwo()
-    if (images.length >= 94 && images.length < 144) getMasterThree()
+    if (images.length >= 50 && images.length < 100) getMasterTwo()
+    if (images.length >= 100 && images.length < 150) getMasterThree()
+    if (images.length < 150) randomize()
   }, [images])
 
   return (

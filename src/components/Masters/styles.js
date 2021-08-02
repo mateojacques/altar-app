@@ -63,7 +63,7 @@ const styles = makeStyles((theme) => ({
   },
   boxTitle: {
     color: `${theme.palette.secondary.main}`,
-    fontFamily: `'Righteous', 'Roboto', sans-serif`,
+    fontFamily: `'Righteous', 'Roboto', sans-serif !important`,
   },
   mastersContainer: {
     gap: '75px 50px',
@@ -72,6 +72,7 @@ const styles = makeStyles((theme) => ({
   },
   masterItem: {
     cursor: 'pointer',
+    marginBottom: 20,
   },
   masterImg: {
     height: 500,
