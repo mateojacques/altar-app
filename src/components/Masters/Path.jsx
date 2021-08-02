@@ -19,6 +19,9 @@ const Path = ({ onPathPicked }) => {
         <Grid
           container
           item
+          xs={12}
+          md={8}
+          lg={6}
           xl={4}
           className={classes.box}
           justifyContent='center'
@@ -34,6 +37,9 @@ const Path = ({ onPathPicked }) => {
         <Grid
           container
           item
+          xs={12}
+          md={8}
+          lg={6}
           xl={4}
           className={classes.box}
           justifyContent='center'

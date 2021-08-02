@@ -4,21 +4,32 @@ const styles = makeStyles((theme) => ({
   feed: {
     width: '100%',
     display: 'flex',
-    padding: '20px 0 20px 50px',
+    padding: 20,
     gap: 30,
     [theme.breakpoints.down('lg')]: {
-      padding: '0px 20px 20px 20px',
+      gap: 0,
+    },
+    [theme.breakpoints.down('xs')]: {
+      paddingTop: 100,
     },
   },
   row: {
-    maxWidth: 300,
-    maxHeight: '10000px',
+    width: '100%',
+    maxWidth: 350,
+    maxHeight: '1000vh',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'space-evenly',
     flexWrap: 'wrap',
     gap: 30,
     overflow: 'hidden',
+    [theme.breakpoints.down('lg')]: {
+      maxHeight: 'unset',
+      padding: '0 20px',
+    },
+    [theme.breakpoints.down('sm')]: {
+      maxWidth: 'unset',
+    },
   },
   img: {
     width: '100%',
