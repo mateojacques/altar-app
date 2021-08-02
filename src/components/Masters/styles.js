@@ -37,12 +37,12 @@ const styles = makeStyles((theme) => ({
       marginTop: 200,
     },
     [theme.breakpoints.down('xs')]: {
-      marginTop: 300,
+      marginTop: 400,
     },
   },
   pickTitle: {
     [theme.breakpoints.down('xs')]: {
-      marginTop: 150,
+      marginTop: 170,
     },
   },
   userTitle: {

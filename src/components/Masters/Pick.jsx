@@ -40,7 +40,7 @@ const Pick = ({ path, onMasterPicked }) => {
           variant='h3'
           className={`${classes.title} ${classes.pickTitle}`}
         >
-          CHOOSE UP TO THREE <span className={classes.span}>MASTERS</span>
+          CHOOSE THREE <span className={classes.span}>MASTERS</span>
         </Typography>
 
         <Grid
