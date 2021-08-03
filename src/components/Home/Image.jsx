@@ -1,5 +1,6 @@
 import useStyles from './styles'
 import { Typography } from '@material-ui/core'
+import LazyLoad from 'react-lazyload'
 
 const Image = ({ images, row }) => {
   const classes = useStyles()
@@ -19,9 +20,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (i <= 30)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
@@ -31,9 +34,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (30 < i && i <= 60)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
@@ -43,9 +48,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (60 < i && i <= 90)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
@@ -55,9 +62,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (90 < i && i <= 120)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
@@ -67,9 +76,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (120 < i && i <= 150)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
@@ -84,9 +95,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (i <= 50)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
@@ -96,9 +109,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (50 < i && i <= 100)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
@@ -108,9 +123,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (100 < i && i <= 150)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
@@ -125,9 +142,11 @@ const Image = ({ images, row }) => {
               images.map((img, i) => {
                 if (i <= 150)
                   return (
-                    <a href={img} target='_blank' rel='noreferrer' key={img}>
-                      <img className={classes.img} src={img} alt={img} />
-                    </a>
+                    <LazyLoad>
+                      <a href={img} target='_blank' rel='noreferrer' key={img}>
+                        <img className={classes.img} src={img} alt={img} />
+                      </a>
+                    </LazyLoad>
                   )
                 else {
                   return null
