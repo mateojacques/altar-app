@@ -25,5 +25,28 @@ body {
 }
 
 ::-webkit-scrollbar {
+  width: 15px;
+  background-color: #000;
+}
+
+::-webkit-scrollbar-track {
+  background-color: '#fff';
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 200px;
+  background-color: #f6c834;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #c59700;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-corner {
   display: none;
 }
