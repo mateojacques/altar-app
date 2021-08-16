@@ -1,6 +1,6 @@
 import useStyles from './styles'
 import { IconButton } from '@material-ui/core' // eslint-disable-next-line
-import { Home, Search, Person, Settings } from '@material-ui/icons'
+import { Home, Search, Person, HelpOutline } from '@material-ui/icons'
 
 const Nav = ({ currentView, onChangeView }) => {
   const classes = useStyles()
@@ -52,21 +52,21 @@ const Nav = ({ currentView, onChangeView }) => {
           <Person />
         </IconButton>
       )}
-      {/* {currentView === 3 ? (
+      {currentView === 3 ? (
         <IconButton
           onClick={() => onChangeView(3)}
           className={`${classes.nav__link} ${classes.linkActive}`}
         >
-          <Settings />
+          <HelpOutline />
         </IconButton>
       ) : (
         <IconButton
           onClick={() => onChangeView(3)}
           className={classes.nav__link}
         >
-          <Settings />
+          <HelpOutline />
         </IconButton>
-      )} */}
+      )}
     </nav>
   )
 }
