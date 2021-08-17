@@ -77,22 +77,6 @@ const Home = ({ images, master }) => {
             </div>
           </>
         )}
-
-        {/* <div className={classes.row}>
-          <Image images={images} master={master} row={1} />
-        </div>
-        <div className={classes.row}>
-          <Image images={images} master={master} row={2} />
-        </div>
-        <div className={classes.row}>
-          <Image images={images} master={master} row={3} />
-        </div>
-        <div className={classes.row}>
-          <Image images={images} master={master} row={4} />
-        </div>
-        <div className={classes.row}>
-          <Image images={images} master={master} row={5} />
-        </div> */}
       </section>
     </>
   )

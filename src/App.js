@@ -20,11 +20,6 @@ function App() {
     function getMasterOne() {
       const userMasters = window.localStorage.getItem('masters')
 
-      if (!userMasters) {
-        changeView(2)
-        return
-      }
-
       if (userMasters) {
         const mastersArray = userMasters.split(',')
         axios

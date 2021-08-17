@@ -10,7 +10,7 @@ const Main = ({ currentView, onChangeView, images, master }) => {
   function handleRedirect() {
     const userMasters = window.localStorage.getItem('masters')
 
-    if (!userMasters) {
+    if (!userMasters && currentView === 0) {
       onChangeView(2)
     }
   }
