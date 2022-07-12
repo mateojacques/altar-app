@@ -22,7 +22,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
@@ -36,7 +36,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
@@ -50,7 +50,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
@@ -64,7 +64,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
@@ -78,7 +78,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
@@ -97,7 +97,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
@@ -111,7 +111,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
@@ -125,7 +125,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
@@ -144,7 +144,7 @@ const Image = ({ images, row }) => {
                   return (
                     <LazyLoad key={img}>
                       <a href={img} target='_blank' rel='noreferrer'>
-                        <img className={classes.img} src={img} alt={img} />
+                        <img className={classes.img} src={img} alt={img} loading="lazy"/>
                       </a>
                     </LazyLoad>
                   )
